@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.btndesign{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+h2{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.b_wide{
+    width: 190px;
+}
+
+.b_tall{
+    height: 106px;
+}
+
+#display{
+    height: 70px;
+    border-radius: 7px;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow: 0px 4px 10px #222 inset
+}
+
+.page{
+    width: 430px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+button{
+    font-size: 25px;
+    width: 91px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #EBEBEB
+}
+
+
+#numysimb{
+    flex-wrap: nowrap;
+}
+

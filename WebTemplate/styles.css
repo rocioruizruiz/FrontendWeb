@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    padding: 50px;
+    background-color:lightgrey;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 40px;
+    background-color: black;
+    padding: 20px;
+}
+
+
+aside h2{
+    color:white;
+    padding-bottom: 40px;
+
+}
+
+aside ul li{
+    color: white;
+    padding-top: 40px;
+    height: 50px;
+    
+}
+
+section{
+    flex: 70%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+@media screen and (max-wigth: 700px){
+    nav, .flex-container{
+        flex-direction: column;
+    }
+}
