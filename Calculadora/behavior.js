@@ -6,13 +6,19 @@ function getResult() {      //recoge el valor introducido
 }
 function add(key) {         //decide si se añade
     var result = getResult();
-    if (result!='0' || isNaN(key)) setResult(result + key);
-    else setResult(key);
+    
+    if(key == 'x') key = '*';
+    if(key == '÷') key = '/';
+    if(key == ',') key = '.';
+
+    if (result!='0' || isNaN(key)){
+        setResult(result + key);
+    }else setResult(key);
 }
 function calc() {           // realiza el calculo utilizando eval()
     var result = eval(getResult()); 
     setResult(result);
 }
-function del() {            // pone a cero el display
-    setResult(0);
+function del() {            // pone vacio el display
+    setResult('');
 }
