@@ -19,7 +19,7 @@ document.addEventListener("keydown", (k) => {
 })
 */
 
-var pixelsmovement = 20;
+var pixelsmovement = 10;
 var over = false;
 var shift = 3;
 var image_size = 400;
@@ -28,17 +28,17 @@ var createmet_loop;
 function move(){
     try {
         document.getElementById('container').style.width = screen.width + 'px';
+        var timeinit = Math.floor(Math.random()*1000 + 1000);
         if( createmet_loop !== undefined){
             clearInterval(createmet_loop);
         }
-        createmet_loop = setInterval(initMeteoroids, 3000);
+        createmet_loop = setInterval(initMeteoroids, timeinit);
 
+        var timemove = Math.floor(Math.random()*50 + 10);
         if( move_loop !== undefined){
             clearInterval(move_loop);
         }
-        console.log('interval set', move_loop);
-        move_loop = setInterval(moveMeteoroids, 80);
-        console.log('interval set', move_loop);
+        move_loop = setInterval(moveMeteoroids, timemove);
     } catch (error) {
         throw error(error);
     }
