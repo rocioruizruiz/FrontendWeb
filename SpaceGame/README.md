@@ -11,5 +11,5 @@
 
 
 
-<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Calculadora/img/calculator.png" alt="App Screenshot" style="zoom: 70%" />
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/SpaceGame/img/SpaceGame.gif" alt="App Screenshot" style="zoom: 70%" />
 
