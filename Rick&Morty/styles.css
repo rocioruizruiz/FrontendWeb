@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 40, 47);
+    color: whitesmoke;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+#listado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 13.5px;
+    border-radius: 9px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px
+}
+
+.char_desc_section{
+    word-wrap: break-word;
+    box-sizing: border-box;
+    background-color: rgb(60, 62, 68);
+    width: 300px;
+    padding: 13.5px;
+}
+.char_desc_section > div > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 4px;
+}
+
+.char_image{
+    width: 300px;
+}
+
+
+.next_prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 2400px;
+}
+
+.next_prev img{
+    width: 30px;
+    height: 30px;
+    align-self:center;
+    margin: 5px;
+}
+
+
+.section{
+    margin-top: 20px;
+}
+.status_alive{
+    background-color: greenyellow;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.status_dead{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.status_unknown{
+    background-color: grey;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 111px;
+    margin: 4px;
+    text-shadow: 1px 1px 4px #989898;
+}
+
+
+h2{
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 4px;
+}
+h3{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 300;
+    margin: 4px;
+}
+h4{
+    color: rgb(158, 158, 158);
+    font-size: 16px;
+    font-weight: 500;
+    height: 26px;
+    line-height: 26px;
+    margin: 4px;
+}
+
+header{
+    height: 300px;
+    background-image: url("./img/RyM.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+
+h1:hover{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+header div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 100px;
+}
+footer div{
+    height: 100%;
+}

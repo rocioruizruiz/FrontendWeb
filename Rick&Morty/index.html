@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="behavior.js"></script>
+    <title>Rick&Morty</title>
+</head>
+<body onload="fetchData()">
+    <header>
+        <div>
+            <h1>The Rick and Morty API</h1>
+        </div>
+        
+    </header>
+
+    <div id="listado"></div>
+
+    <footer>
+        <div class="next_prev">
+            <h3>Prev</h3><img src="./img/prevpage.png" alt="PREV" onclick="findPrev()">
+            <img src="./img/nextpage.png" alt="NEXT" onclick="findNext()"><h3>Next</h3>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
