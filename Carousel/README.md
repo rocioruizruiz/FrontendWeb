@@ -4,7 +4,7 @@
 * Carousel that shows image on detail if you click on it.
 
 
-<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Rick&Morty/img/Carousel.gif" alt="App Screenshot" style="zoom: 70%" />
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Carousel/img/Carousel.gif" alt="App Screenshot" style="zoom: 70%" />
 
 
 
