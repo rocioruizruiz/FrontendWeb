@@ -16,6 +16,7 @@
 
 ## CAROUSEL
 
+<img 
 src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Carousel/img/Carousel.gif" alt="App Screenshot" style="zoom: 70%" />
 
 ## CALCULATOR
