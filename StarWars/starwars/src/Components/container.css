@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+    color: yellow;
+    text-shadow: 1px 1px 4px yellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+header > img {
+    padding-top: 5px;
+    height: 120px;
+    width: 100vw;
+}
+
+  
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+.Menu > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    color: yellow;
+    cursor: pointer;
+}
+
+.Menu  :hover{
+    text-shadow: 1px 2px 3px yellow;   
+}
+
+p{
+    font-size: 20px;
+}
+button{
+    margin: 5px;
+    height: 27px;
+    width: 39px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
