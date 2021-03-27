@@ -1,10 +1,17 @@
 # FrontendWeb <img src="https://www.nebrija.com/lp/2019/inc/common/assets/img/logo_nebrija.png" height="50px" align="right" />
+![GitHub Release Date](https://img.shields.io/github/release-date/rocioruizruiz/FrontendWeb)
+![GitHub last commit](https://img.shields.io/github/last-commit/rocioruizruiz/FrontendWeb)
+
 * Static Web Page Template
 * Calculator
 * Space Game
 * Rick and Morty characters API Interface
 * Carousel
+* Star Wars Web - SWAPI API
 
+## STAR WARS
+
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/StarWars/img/StarWars.gif" alt="App Screenshot" style="zoom: 70%" />
 
 ## SPACE GAME
 
