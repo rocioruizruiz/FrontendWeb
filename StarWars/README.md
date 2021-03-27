@@ -7,6 +7,7 @@ Functionalities:
 * GET all film. Filter them by ascending or descending alphabetical order or keep it as the official Star Wars API.
 * GET all characters. Filter them by ascending or descending alphabetical order or keep it as the official Star Wars API.
 * GET all planets. Filter them by ascending or descending alphabetical order or keep it as the official Star Wars API.
+
 Order them by ascending or descending alphabetical order or keep it as the official Star Wars API.
 Search any film, character, or planet and aply the order filter to it too.
 
