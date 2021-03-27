@@ -1,0 +1,30 @@
+.Target{
+    color:white;
+    padding: 20px;
+    margin: 80px 100px;
+    margin-top: 30px;
+    border: 1px solid rgb(74, 74, 74);
+    border-radius: 5px;
+    background-color: black;/* #151617;*/
+    box-shadow: 3px -2px 8px rgb(255, 230, 0);
+}
+
+.Container{
+    padding: 20px;
+}
+h3{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 20px;
+}
+
+.LookUp{
+
+    margin-right: 100px;
+    padding: 20px;
+    color:wheat;
+    text-align: right;
+}
