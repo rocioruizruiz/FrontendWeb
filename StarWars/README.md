@@ -52,11 +52,6 @@ These are the project dependencies:
 }
 ```
 
-## 🛠 Built With
-
-* [ReactJS](https://reactjs.org) - The frontend framework used
-* [NPM](https://www.npmjs.com) - Package manager
-
 
 ## Learn More
 
