@@ -8,6 +8,11 @@
 * Rick and Morty characters API Interface
 * Carousel
 * Star Wars Web - SWAPI API
+* Open Library Web API
+
+## OPEN LIBRARY
+
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/OpenLibrary/img/OpenLibrary.gif" alt="App Screenshot" style="zoom: 70%" />
 
 ## STAR WARS
 
