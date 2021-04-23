@@ -1,43 +1,64 @@
-# Getting Started with Create React App
+# Open Library 🪐🚀 <img src="https://www.nebrija.com/lp/2019/inc/common/assets/img/logo_nebrija.png" height="50px" align="right" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Stack 🛠: React, Typescript and CSS.
+* Open Library web that fetch data from Open Library public API.
 
-## Available Scripts
+Functionalities: 
+* Search Books by Title OR Author.
+* Choose Between Grid or List View.
+* Sort results alphabetically or by most recent on List View.
+* Paginate API results to show 20 per page.
 
-In the project directory, you can run:
 
-### `yarn start`
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/OpenLibrary/img/OpenLibrary.gif" alt="App Screenshot" style="zoom: 70%" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 🚩 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These instructions will get you a copy of the project up and running on your local machine for start using it.
 
-### `yarn build`
+### Installing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A step by step series of examples that tell you how to get a development environment running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installing dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `yarn eject`
+Starting on local
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖇 Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+They are in the `package.json` file.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+These are the project dependencies:
+
+```json
+"dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+```
+
 
 ## Learn More
 
