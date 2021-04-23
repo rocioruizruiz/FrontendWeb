@@ -1,0 +1,133 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LookUpContainer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.LookUp{
+    width: 400px;
+    height: 50px;
+    color:black;
+    font-size: 30px;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+h2{
+    color: white;  
+}
+
+.SearchButton{
+    color:white;
+    margin: 5px;
+    height: 55px;
+    padding: 10px;
+    font-size: large;
+    border-color: grey;
+}
+
+.Title{
+    margin: 30px;
+    font-size: 50px;
+}
+
+.CloseButton{
+    color:white;
+    margin: 5px;
+    height: 55px;
+    padding: 10px;
+    font-size: large;
+    border-color: grey;
+}
+
+.SearchBar{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Views{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-right: 5%;
+}
+.Order{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-right: 5%;
+}
+.FilterBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-right: 5%;
+}
+
+.FilterBar > div > button{
+    color:white;
+    margin: 5px;
+    height: 58px;
+    width: 85px;
+    padding: 10px;
+    font-size: large;
+    border-color: grey;
+}
+
+.ClipLoader{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ContainerTarget{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+button{
+    color: white;
+    border-color: grey;
+}
+.NotFound{
+    margin: 80px;
+    color:white;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+}
+.References{
+    width: 100%;
+    display: flex;   
+}
+
+.References > div{
+    margin-right: 370px;
+    margin-left: 10px;
+}
+
+
