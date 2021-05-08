@@ -2,6 +2,7 @@ import React, {FC, useState} from 'react'
 import {gql, useQuery} from '@apollo/client'
 import City, {ICity} from './city'
 import './countries.css'
+import ClipLoader from 'react-spinners/ClipLoader'
 
 interface IData {
     countries: ICountry[]
@@ -50,8 +51,8 @@ const Country:FC<{text:string}> = (props: {text:string}) => {
         variables: {name: props.text},
     });        
 
-    if(loading) return <div><h2>CARGANDO...</h2></div>
-    if(error) return <div><h2>ERROR</h2></div>
+    if(loading) return <div className="ClipLoader"><ClipLoader color="rgb(88, 113, 90)" size="50pxs"/></div>
+    if(error) return <div><h2>ERROR :(</h2></div>
     console.log(data.countries);
     return  (
         

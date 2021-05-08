@@ -2,6 +2,7 @@ import React, {FC, useState} from 'react'
 import Country, {ICountry} from './country'
 import {gql, useQuery} from '@apollo/client'
 import './cities.css'
+import ClipLoader from 'react-spinners/ClipLoader'
 
 /*
 
@@ -65,7 +66,7 @@ const City:FC<{text:string}> = (props: {text:string}) => {
         variables: {name: props.text},
     });    
 
-    if(loading) return <div><h2>CARGANDO...</h2></div>
+    if(loading) return <div className="ClipLoader"><ClipLoader color="rgb(88, 113, 90)" size="50pxs"/></div>
     if(error) return <div><h2>ERROR</h2></div>
 
     return  (
