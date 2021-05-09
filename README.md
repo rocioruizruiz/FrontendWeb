@@ -9,6 +9,11 @@
 * Carousel
 * Star Wars Web - SWAPI API
 * Open Library Web API
+* Everbase web API
+
+## EVERBASE
+
+<img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Everbase/img/Everbase.gif" alt="App Screenshot" style="zoom: 70%" />
 
 ## OPEN LIBRARY
 
