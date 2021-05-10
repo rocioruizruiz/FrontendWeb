@@ -4,31 +4,6 @@ import {gql, useQuery} from '@apollo/client'
 import './cities.css'
 import ClipLoader from 'react-spinners/ClipLoader'
 
-/*
-
-continent: Continent!
-The continent.
-
-country: Country!
-The country.
-
-geonamesID: Int!
-The Geonames.org ID.
-
-id: String!
-The Wikidata ID.
-
-location: Coordinates
-The location.
-
-name: String!
-The name.
-
-population: Int!
-The population.
-
-*/
-
 interface IData{
     cities: ICity[];
 }
@@ -38,7 +13,7 @@ export interface ICity{
     country: ICountry,
     name: string,
     population: number,
-    timeZone: {name:string},
+    timeZone?: {name:string},
 }
 
 const CITIES = gql`
@@ -69,6 +44,7 @@ const City:FC<{text:string}> = (props: {text:string}) => {
     if(loading) return <div className="ClipLoader"><ClipLoader color="rgb(88, 113, 90)" size="50pxs"/></div>
     if(error) return <div><h2>ERROR</h2></div>
 
+
     return  (
         
         <div className="cities-container">
@@ -79,7 +55,7 @@ const City:FC<{text:string}> = (props: {text:string}) => {
                             <h1>{city.name}</h1>
                             <div onClick={() => {setClicked(city.country.name); setCountry(city.country.name)}}> Country: {city.country.name}</div> 
                             <div>Population: {city.population}</div>
-                            <div>Time Zone: {city.timeZone.name}</div>  
+                            {data.timeZone && <div>Time Zone: {city.timeZone!.name}</div>  }
                         </div> 
                         <div>{clicked===city.country.name && <Country text={country}/>}</div>
                     </div>)
