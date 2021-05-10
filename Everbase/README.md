@@ -7,6 +7,7 @@ Functionalities:
 * Search Cities or Countries.
 * On countries you can click on the capital and get the city info.
 * On cities ypu can click on the country and get the country info.
+* Pop up window which shows de country image when you click on the country name.
 
 
 <img src="https://github.com/rocioruizruiz/FrontendWeb/blob/main/Everbase/img/Everbase.gif" alt="App Screenshot" style="zoom: 70%" />
@@ -52,6 +53,8 @@ These are the project dependencies:
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "reactjs-popup": "^2.0.4",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
