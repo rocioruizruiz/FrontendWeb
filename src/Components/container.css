@@ -1,0 +1,75 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: rgb(229, 251, 204);
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+.App > div{
+    margin: 40px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-buttons > div {
+    width: 100%;
+}
+.search-buttons > div > button {
+    width: 50%;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgb(88, 113, 90);
+    background-color: rgb(229, 251, 204);
+    color: rgb(88, 113, 90);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+button{
+    height: 34px; 
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgb(88, 113, 90);
+    box-shadow: 1px -1px 2px rgb(88, 113, 90);
+    background-color: rgb(229, 251, 204);
+    color: rgb(88, 113, 90);
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0;
+    color: rgb(88, 113, 90);
+    font-weight: 100;
+    font-size: 100px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(229, 251, 204);
+    border-radius: 5px;
+    border-color:rgb(88, 113, 90);
+    margin-right: 15px;
+    margin: 32px 10px;
+    color: rgb(88, 113, 90);
+    outline: none;
+    padding-left: 5px;
+}
+
+

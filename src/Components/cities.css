@@ -1,0 +1,58 @@
+.cities-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.city-card{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    color: rgb(88, 113, 90);
+    font-weight: 200;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+.city-card > div{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top:0px;
+}
+
+.city {
+    border-left: 1px solid rgb(88, 113, 90);
+    height: fit-content;
+}
+
+
+
+
+/***************/
+
+.Countries{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.country-card{
+    border-left: 1px solid rgb(88, 113, 90);
+}
+
+
+
