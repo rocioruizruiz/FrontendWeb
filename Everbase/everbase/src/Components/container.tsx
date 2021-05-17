@@ -3,11 +3,13 @@ import './container.css'
 import Country from './country'
 import City from './city'
 
+
 const Container:FC = () => {
 
     const [type, setType] = useState<string>("");
     const [text, setText] = useState<string>("");
     const [data, setData] = useState<string>("");
+    
 
     return(
         <div className="App">
